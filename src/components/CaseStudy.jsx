@@ -1,6 +1,9 @@
 
 import React from 'react'
 import casestudy from "../assets/casestudy1.png"
+import casestudy2 from "../assets/casestudy2.png"
+import casestudy3 from "../assets/casestudy3.png"
+
 
 const CaseStudy = () => {
     return (
@@ -57,7 +60,7 @@ const CaseStudy = () => {
                     <div className="max-w-sm bg-white rounded-lg shadow-md">
                         <div className="bg-[#EEF1F6] p-4 flex justify-center">
                             <a className="cursor-pointer" href="#">
-                                <img src={casestudy} alt="Case Study" />
+                                <img src={casestudy2} alt="Case Study" />
                             </a>
                         </div>
                         <div className="p-5">
@@ -98,7 +101,7 @@ const CaseStudy = () => {
                     <div className="max-w-sm bg-white rounded-lg shadow-md">
                         <div className="bg-[#F8E8E8] p-4 flex justify-center">
                             <a className="cursor-pointer" href="#">
-                                <img src={casestudy} alt="Case Study" />
+                                <img src={casestudy3} alt="Case Study" />
                             </a>
                         </div>
                         <div className="p-5">

@@ -32,9 +32,9 @@ const About = () => {
                         </div>
                     </div>
                 
-                <div className="flex flex-col items-center md:items-start text-gray-600 max-w-lg space-y-6">
-                    <h2 className="text-2xl md:text-3xl font-semibold text-center md:text-left">
-                        Unlocking Business Potential with Expert SAP Consultancy
+                <div className="flex flex-col items-center md:items-start text-black max-w-lg space-y-6">
+                    <h2 className="text-2xl md:text-3xl font-bold text-center md:text-left">
+                        Unlocking Business <br /> Potential with Expert SAP <br /> Consultancy
                     </h2>
 
                     <p className="text-center md:text-left leading-relaxed text-sm md:text-base">
@@ -51,14 +51,14 @@ const About = () => {
 
 
 
-<   div className="flex flex-col md:flex-row justify-around mt-10 px-8 lg:px-24 gap-12 lg:gap-16">
+<   div className="flex flex-col md:flex-row justify-around mt-10 px-8 lg:px-24  lg:gap-16">
  
-    <div className="flex flex-col items-center md:items-start text-gray-600 max-w-lg space-y-3 p-10 lg:p-8">
+    <div className="flex flex-col items-center md:items-start text-black max-w-lg space-y-3 p-10 lg:p-8">
         <h1 className="text-3xl font-bold text-center md:text-left">
             How can we help you
         </h1>
         <p className="text-center md:text-left leading-relaxed text-sm md:text-base">
-            Nibh amet penatibus scelerisque nisl <br /> mattis a ultrices quam. Ultrices pretium <br /> pellentesque.
+            Nibh amet penatibus scelerisque nisl  mattis a ultrices quam. Ultrices pretium  pellentesque.
         </p>
     </div>
 
@@ -98,101 +98,7 @@ const About = () => {
     </div>
 </div>
 
-
-
-            
-
-
-     {/* <div className="flex flex-col md:flex-row  justify-around mt-10 px-6 lg:px-20 gap-12 lg:gap-16">
-   
-    <div className="flex flex-col items-center md:items-start text-gray-600 max-w-lg space-y-3">
-        <h1 className="text-3xl font-bold text-center md:text-left">
-            How can we help you
-        </h1>
-        <p className="text-center md:text-left leading-relaxed text-sm md:text-base">
-            Nibh amet penatibus scelerisque nisl <br /> mattis a ultrices quam. Ultrices pretium <br /> pellentesque.
-        </p>
-    </div>
-
-   
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
-       
-        <div className="bg-[#07162D] text-[#B4B4C2] p-4 rounded-lg shadow-lg flex flex-col items-start justify-start text-left font-semibold max-w-xs h-44">
-            <span className="text-xl">01</span>
-            <img className="w-16 my-4" src={aboutnum} alt="Icon" />
-            <span className="text-base">Open Text</span>
-        </div>
-
-        <div className="bg-[#2d63d7] text-[#B4B4C2] p-4 rounded-lg shadow-lg flex flex-col items-start justify-start text-left font-semibold max-w-xs h-60">
-            <span className="text-xl">02</span>
-            <span className="text-base mt-3">Sap</span>
-
-            <div className="flex items-center justify-end gap-2 mt-3">
-                <span className="text-sm">View all</span>
-                <div className="relative">
-                    <img className="w-6" src={rounded} alt="Rounded" />
-                    <img
-                        src={arrow}
-                        alt="Arrow"
-                        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3 h-3"
-                    />
-                </div>
-            </div>
-        </div>
-
-       
-        <div className="bg-[#07162D] text-[#B4B4C2] p-4 rounded-lg shadow-lg flex flex-col items-start justify-start text-left font-semibold max-w-xs h-44">
-            <span className="text-xl">03</span>
-            <img className="w-12 my-4" src={aboutnum2} alt="Icon" />
-            <span className="text-base">Finance Services</span>
-        </div>
-    </div>
-</div> */}
-
-
-
-       
-            {/* <div className="flex flex-col md:flex-row items-center justify-around mt-10 px-6 lg:px-20 gap-10">
-                <div className="flex flex-col items-center md:items-start text-gray-600 max-w-lg space-y-3">
-                    <h1 className="text-3xl font-bold text-center md:text-left">
-                        How can we  help you
-                    </h1>
-                    <p className="text-center md:text-left leading-relaxed text-sm md:text-base">
-                        Nibh amet penatibus scelerisque nisl <br /> mattis a ultrices quam. Ultrices pretium <br /> pellentesque.
-                    </p>
-                </div>
-
-            
-                <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 w-full">
-                   
-                    <div className="bg-[#07162D] text-[#B4B4C2] p-6 rounded-lg shadow-lg flex flex-col items-start justify-start text-left font-semibold w-full sm:w-44 lg:w-48 h-44">
-                        <span className="text-xl">01</span>
-                        <img className="w-16 my-4" src={aboutnum} alt="Icon" />
-                        <span className="text-base">Open Text</span>
-                    </div>
-
-                   
-                    <div className="bg-[#2d63d7] text-[#B4B4C2] p-6 rounded-lg shadow-lg flex flex-col items-start justify-start text-left font-semibold w-full sm:w-48 lg:w-60 h-60">
-                        <span className="text-xl">02</span>
-                        <span className="text-base mt-3">Sap</span>
-
-                        <div className="flex items-center justify-end gap-2 mt-3">
-                            <span className="text-sm">View all</span>
-                            <div className="relative">
-                                <img className='w-6' src={rounded} alt="Rounded" />
-                                <img src={arrow} alt="Arrow" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3 h-3" />
-                            </div>
-                        </div>
-                    </div>
-
-                   
-                    <div className="bg-[#07162D] text-[#B4B4C2] p-6 rounded-lg shadow-lg flex flex-col items-start justify-start text-left font-semibold w-full sm:w-44 lg:w-48 h-44">
-                        <span className="text-xl">03</span>
-                        <img className="w-12 my-4" src={aboutnum2} alt="Icon" />
-                        <span className="text-xl">FinanceServices</span>
-                    </div>
-                </div>
-            </div> */}
+     
         </>
     );
 };

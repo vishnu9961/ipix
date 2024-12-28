@@ -10,8 +10,8 @@ const Blog = () => {
                 <div className="flex flex-col lg:flex-row  justify-between px-6 lg:px-20 md:gap-24">
 
                   
-                    <div className="flex flex-col items-center lg:items-start text-gray-600 max-w-lg space-y-6 lg:space-y-8 lg:w-1/2">
-                        <h2 className="text-2xl font-semibold text-center lg:text-left">
+                    <div className="flex flex-col items-center lg:items-start text-black max-w-lg space-y-6 lg:space-y-8 lg:w-1/2">
+                        <h2 className="text-3xl font-bold text-center lg:text-left">
                             News & Blogs
                         </h2>
                         <img src={blog} alt="Blog" className="mb-6 max-w-full" />

@@ -7,11 +7,11 @@ import framedots from "../assets/framedots.png"
 const Testimonials = () => {
   return (
     <>
-      <div>
-        <section id="testimonials" className="py-10 lg:py-20 bg-gray-50 linear-gradient from-[#63ABFF] to-[#106CD9]">
+      <div className='bg-blue-50 mt-20'>
+        <section id="testimonials" className="py-10 lg:py-20">
           <div className="container mx-auto px-4">
 
-            <h6 className="text-gray-600 text-left mb-8 font-bold text-xl">
+            <h6 className="text-black text-left mb-8 font-bold text-3xl">
               Customer Experiences
             </h6>
 
