@@ -51,7 +51,7 @@ const About = () => {
 
 
 
-<   div className="flex flex-col md:flex-row justify-around mt-10 px-8 lg:px-24  lg:gap-16">
+<div className="flex flex-col md:flex-row justify-around mt-10 px-8 lg:px-24  lg:gap-16">
  
     <div className="flex flex-col items-center md:items-start text-black max-w-lg space-y-3 p-10 lg:p-8">
         <h1 className="text-3xl font-bold text-center md:text-left">

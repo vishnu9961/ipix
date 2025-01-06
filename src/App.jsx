@@ -6,7 +6,7 @@ import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import Services from "./components/Services"
-import TalkWithUs from "./components/TalkWithUs"
+
 import Testimonials from "./components/Testimonials"
 
 
@@ -26,7 +26,6 @@ function App() {
       <Awards/>
       <Testimonials/>
       <Blog/>
-      <TalkWithUs/>
       <Footer/>
 
     </div>
