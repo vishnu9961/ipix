@@ -12,9 +12,6 @@ import WhyChooseUs from './WhyChooseUs';
 const Services = () => {
     return (
         <>
-           
-    
-
         <div className="mt-10 flex flex-col sm:flex-row justify-around items-center px-4 sm:px-6 lg:px-20">
             <div className="flex gap-4 items-center mb-4 sm:mb-0">
                 <img src={line} alt="Line" className="w-8 h-auto sm:w-auto" />
@@ -28,15 +25,8 @@ const Services = () => {
                 <GoArrowRight className="text-black rounded-full p-2 bg-gray-300 text-3xl sm:text-2xl" />
             </div>
         </div>
-
-
-           
             <img className='w-3/4 mx-auto justify-center items-center' src={services} alt="Services" />
-
-           
             <div className="flex flex-col md:flex-row items-center justify-between px-6 lg:px-20 gap-10 max-w-7xl mx-auto mt-10">
-
-            
                 <div className="flex flex-col items-center text-black max-w-lg space-y-6">
                     <h2 className="text-2xl md:text-3xl font-semibold text-center">
                         I am thrilled to address you today as the CEO of SAPTech Consultancy, a leading provider of innovative SAP solutions.
